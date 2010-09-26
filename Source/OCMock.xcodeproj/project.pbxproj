@@ -678,7 +678,14 @@
 			};
 			buildConfigurationList = 03DFEE1208F04987002E8661 /* Build configuration list for PBXProject "OCMock" */;
 			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* OCMock */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
@@ -898,7 +905,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = OCMock;
 				PUBLIC_HEADERS_FOLDER_PATH = Headers/OCMock;
-				SDKROOT = iphonesimulator3.2;
+				SDKROOT = iphonesimulator4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -919,7 +926,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = OCMock;
 				PUBLIC_HEADERS_FOLDER_PATH = Headers/OCMock;
-				SDKROOT = iphonesimulator3.2;
+				SDKROOT = iphonesimulator4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1011,7 +1018,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = OCMock;
 				PUBLIC_HEADERS_FOLDER_PATH = Headers/OCMock;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1031,7 +1038,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = OCMock;
 				PUBLIC_HEADERS_FOLDER_PATH = Headers/OCMock;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
