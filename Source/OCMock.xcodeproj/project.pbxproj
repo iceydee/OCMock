@@ -766,7 +766,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# make a new output folder\nmkdir -p ${TEMP_ROOT}/${BUILD_STYLE}/Library\n \n# combine lib files for device and simulator platforms into one\nlipo -create \"${TEMP_ROOT}/${BUILD_STYLE}-iphoneos/libOCMock.a\" \"${TEMP_ROOT}/${BUILD_STYLE}-iphonesimulator/libOCMock.a\" -output \"${TEMP_ROOT}/${BUILD_STYLE}/Library/libOCMock.a\"\n\n# copy the headers (we could have used a copy files build phase, too)\ncp -R \"${TEMP_ROOT}/${BUILD_STYLE}-iphoneos/Headers\" \"${TEMP_ROOT}/${BUILD_STYLE}/Library\"\n";
+			shellScript = "# make a new output folder\nmkdir -p ${TEMP_ROOT}/${BUILD_STYLE}/Library\n \n# combine lib files for device and simulator platforms into one\nlipo -create \"${TEMP_ROOT}/${BUILD_STYLE}-iphoneos/libOCMock.a\" \"${TEMP_ROOT}/${BUILD_STYLE}-iphonesimulator/libOCMock.a\" -output \"${TEMP_ROOT}/${BUILD_STYLE}-iphoneuniversal/libOCMock.a\"\n\n# copy the headers (we could have used a copy files build phase, too)\ncp -R \"${TEMP_ROOT}/${BUILD_STYLE}-iphoneos/Headers\" \"${TEMP_ROOT}/${BUILD_STYLE}-iphoneuniversal/Headers\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
